@@ -19,15 +19,15 @@ The implementation includes training, evaluation, visualization of results, and 
 
 ## Features
 
-- CNN implementation using PyTorch
-- Convolutional Spiking Neural Network (SNN)
-- Fully Connected Spiking Neural Network
-- Training and evaluation scripts
-- Testing on custom image datasets
-- Webcam-based image prediction
-- Accuracy, latency, and energy comparison
-- Performance visualization using graphs
-
+- CNN and Spiking Neural Network (SNN) implementations
+- Real-time handwritten digit recognition using a webcam
+- Automatic Region of Interest (ROI) extraction
+- Image preprocessing and digit normalization
+- Prediction comparison across multiple neural network architectures
+- Confidence score reporting
+- Inference latency measurement
+- Energy consumption analysis
+- Accuracy and performance visualization
 ---
 
 ## Technologies Used
@@ -139,6 +139,32 @@ Generated visualizations include:
 The project includes a custom dataset organized into multiple class folders.
 
 ---
+
+## Webcam Demo
+<img width="1600" height="1041" alt="WhatsApp Image 2026-07-23 at 12 33 54 PM" src="https://github.com/user-attachments/assets/f366e3bd-ed82-4eff-aa61-e9ee52c7cab2" />
+<img width="1600" height="1041" alt="WhatsApp Image 2026-07-23 at 12 33 54 PM (1)" src="https://github.com/user-attachments/assets/53342b61-894b-4e99-a1a9-865bf0cfee4e" />
+
+## Performance Comparison
+
+### Accuracy Comparison
+
+<img width="1920" height="1440" alt="image" src="https://github.com/user-attachments/assets/29a63636-be82-43b0-9fc6-af977a8902b9" />
+
+
+### Energy vs Accuracy
+
+<img width="1920" height="1440" alt="image" src="https://github.com/user-attachments/assets/d57da653-e6e2-42ca-9f96-142677b0690c" />
+
+
+### Timestep Accuracy
+
+<img width="1920" height="1440" alt="image" src="https://github.com/user-attachments/assets/1bf1f089-556e-4ada-99bc-686cfd1c233d" />
+
+
+### Timestep Energy
+
+<img width="1920" height="1440" alt="image" src="https://github.com/user-attachments/assets/deec4516-95b2-4f5d-9319-3dbd431f0464" />
+
 
 ## Contributors
 
